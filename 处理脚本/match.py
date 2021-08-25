@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from trie import pinyinTree
+from .trie import pinyinTree
 
 
 # 拼音
@@ -114,6 +114,18 @@ def keyboardMatch(S):
             return False
     return True
 
+
+def digitMatch(S):
+    for ch in S:
+        if ord(ch) not in range(48, 58):
+            return False
+    return True
+
+def letterMatch(S):
+    for ch in S:
+        if ord(ch) not in range(97, 123):
+            return False
+    return True
 
 # Digit+letter
 def digitAndLetterMatch(S):
