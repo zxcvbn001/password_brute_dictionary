@@ -84,9 +84,9 @@ https://github.com/huyuanzhi2/password_brute_dictionary
 根据密码策略生成字典
 自定义正则提取字典
 ```
-#Star
 
-## Stargazers over time
+
+# Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/huyuanzhi2/password_brute_dictionary.svg)](https://starchart.cc/huyuanzhi2/password_brute_dictionary)
 
